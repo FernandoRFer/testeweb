@@ -14,7 +14,7 @@ class _HistoriaState extends State<Historia> {
       child: Scaffold(
         //appBar: AppBar(),
         body: Container(
-          color: Color.fromARGB(0, 0, 0, 0),
+          color: const Color.fromARGB(0, 0, 0, 0),
           child: ListView(
             children: const [
               Text(

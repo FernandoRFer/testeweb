@@ -1,6 +1,6 @@
-import 'package:web/home_page.dart';
 import 'package:web/pages/historia.dart';
 import 'package:flutter/material.dart';
+import 'package:web/pages/pageview.dart';
 
 void main() {
   //setUrlStrategy(PathUrlStrategy());
@@ -19,7 +19,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             primarySwatch: Colors.blue, bottomAppBarColor: Colors.black12),
         routes: {
-          '/': (context) => HomePage(),
+          '/': (context) => const Home2(),
+          //'/': (context) => const HomePage(),
+          //'/': (context) => const TesteScroll(),
           '/Historia': (context) => const Historia(),
         });
   }
